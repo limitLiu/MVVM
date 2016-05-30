@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+@class LIUMoviesViewModel;
 @interface ViewController : UIViewController
 
-
+@property (nonatomic, strong) LIUMoviesViewModel *viewModel;
 @end
 
